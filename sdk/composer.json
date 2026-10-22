@@ -1,0 +1,16 @@
+{
+  "name": "restro-analytics/server-tracker",
+  "description": "Lightweight PHP helper for sending server-side business events to the Restro Analytics ingestion API.",
+  "version": "1.0.0",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": "^8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "RestroAnalytics\\": "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}

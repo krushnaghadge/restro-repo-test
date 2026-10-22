@@ -1,0 +1,24 @@
+{
+  "name": "@restro-analytics/browser-sdk",
+  "version": "1.0.0",
+  "description": "Zero-dependency browser SDK for Restro Analytics — automatic page-view tracking and custom event capture.",
+  "main": "src/analytics.js",
+  "module": "src/analytics.js",
+  "types": "src/analytics.d.ts",
+  "exports": {
+    ".": {
+      "import": "./src/analytics.js",
+      "default": "./src/analytics.js"
+    }
+  },
+  "files": [
+    "src/analytics.js",
+    "src/analytics.d.ts",
+    "README.md"
+  ],
+  "keywords": ["analytics", "tracking", "page-views", "events", "restaurant"],
+  "license": "MIT",
+  "engines": {
+    "node": ">=16"
+  }
+}
